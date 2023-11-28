@@ -13,7 +13,7 @@ public class Robot {
         coordenada = zona.getCentro();
     }
     public Robot(Zona zona){
-        this();
+        orientacion = Orientacion.NORTE;
         setZona(zona);
         coordenada = zona.getCentro();
     }
